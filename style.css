@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  list-style-type: none !important;
+  scrollbar-width: 0;
+}
+
+.container {
+  max-width: 1440px !important;
+}
+
+.content {
+  padding: 22px 12px 22px 12px;
+}
+
+.pt-9 {
+  padding-top: 26px;
+}
+
+.link {
+  font-family: Lexend;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2C2F32;
+}
+
+.BtnSmall {
+  font-family: Figtree;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  Padding: 2px 12px 2px 12px;
+  border-radius: 32px;
+  border: 0;
+  color: #8D8D8D;
+  background: #F1F1F1;
+}
+
+.p-4-6 {
+  padding: 16px 24px;
+}
+
+.title {
+  font-family: Lexend;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  overflow-x: scroll;
+}
+
+.title::-webkit-scrollbar,
+.para::-webkit-scrollbar {
+  display: none;
+}
+
+.para {
+  font-family: Lexend;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  height: 44px;
+  overflow-x: scroll;
+}
+
+.btnSecond {
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 9.5px 16px 9.5px 16px;
+  background: #222861;
+  color: white;
+  transition: all linear 300ms;
+}
+
+.btnSecond:hover {
+  color: black;
+  background: #FFF;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.h-30 {
+  height: 30px;
+}
+
+
+
+.Card {
+  border-top: 0 !important;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border: 1px solid #E5E5E5;
+  margin-top: -2px;
+
+}
+
+@media (min-width:556px) {
+  .content {
+      padding: 48px 80px 48px 80px;
+  }
+
+  .title {
+      font-size: 24px;
+  }
+
+  .pt-9 {
+      padding-top: 36px;
+  }
+}
+
+@media (min-width:992px) {
+  .max-w-378 {
+      max-width: 378px;
+  }
+}
